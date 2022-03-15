@@ -3,4 +3,7 @@
 
 int _putchar(char c);
 
+/* prototype that prints alphabet*/
+void print_alphabet(void);
+
 #endif
