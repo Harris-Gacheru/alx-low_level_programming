@@ -21,4 +21,7 @@ int print_sign(int n);
 /* prototype - return absolute value */
 int _abs(int n);
 
+/* prototype - print last digit */
+int print_last_digit(int n);
+
 #endif
