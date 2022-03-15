@@ -36,7 +36,7 @@ void times_table(void)
 				_putchar('0' + (product % 10));
 			}
 		}
-		-putchar('\n');
+		_putchar('\n');
 	}
 
 }
