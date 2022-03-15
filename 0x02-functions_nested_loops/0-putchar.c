@@ -24,6 +24,6 @@ int main(void)
 
 int _putchar(char c)
 {
-	fwrite(1, &c, 1);
+	printf(c);
 	return (0);
 }
