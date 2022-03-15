@@ -18,4 +18,7 @@ int _isalpha(int c);
 /*prototype - print sign */
 int print_sign(int n);
 
+/* prototype - return absolute value */
+int _abs(int n);
+
 #endif
