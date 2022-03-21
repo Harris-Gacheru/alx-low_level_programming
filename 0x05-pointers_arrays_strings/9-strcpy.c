@@ -23,7 +23,7 @@ int _strlen(char *s)
  * _strcpy - copies the string
  * including the terminating nullbyte (\0),
  * to the buffer pointed to by dest
- * @dest: copy source 
+ * @dest: copy source
  * @src: source
  * Return: copy of original source
  */
@@ -38,13 +38,13 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-/* another method using pointer notation 
- 
-   char *_strcpy(char *dest, char *src)
-   {
-   	while (*src)
+/* another method using pointer notation
+
+char *_strcpy(char *dest, char *src)
+{
+	while (*src)
 	{
-		*dest = *src;
+ 		*dest = *src;
 		src++;
 		dest++;
 	}
